@@ -37,7 +37,7 @@ find_package(catkin REQUIRED COMPONENTS
   tf
 )
 
-set(ncnn_DIR "/usr/local/lib/ncnn/lib/cmake/ncnn" CACHE PATH "Directory that contains ncnnConfig.cmake")
+set(ncnn_DIR "/home/wang/code/SG-SLAM/src/sg-slam/Thirdparty/ncnn/build/install/lib/cmake/ncnn" CACHE PATH "Directory that contains ncnnConfig.cmake")
 set(NCNN_TARGET_LIB ncnn)
 set(catkin_DIR /opt/ros/melodic/share/catkin/cmake) # new add for clion
 

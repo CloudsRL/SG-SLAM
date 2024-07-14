@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+			//build.sh按照实际情况来，不搬参考博客的方式，应该与“.vscode”同目录下
+			"command":["./build_new.sh"],
+        }
+
+    ]
+}

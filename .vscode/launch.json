@@ -1,0 +1,217 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    // https://blog.csdn.net/weixin_39754100/article/details/105200806
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "TUM_f3_w_x",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/home/wang/code/SG-SLAM/src/sg-slam/Examples/sg_slam_tum",
+            "args": [
+                "/home/wang/code/SG-SLAM/src/sg-slam/Vocabulary/ORBvoc.bin",
+                "/home/wang/code/SG-SLAM/src/sg-slam/Examples/TUM3.yaml",
+                "/home/wang/dataset/TUM/rgbd_dataset_freiburg3_walking_xyz",
+                "/home/wang/dataset/TUM/rgbd_dataset_freiburg3_walking_xyz/associate_ours.txt",
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build",
+            "miDebuggerPath": "/usr/bin/gdb"
+        },
+        {
+            "name": "Bonn_tracking2",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/home/wang/code/SG-SLAM/src/sg-slam/Examples/sg_slam_tum",
+            "args": [
+                "/home/wang/code/SG-SLAM/src/sg-slam/Vocabulary/ORBvoc.bin",
+                "/home/wang/code/SG-SLAM/src/sg-slam/Examples/Bonn.yaml",
+                "/home/wang/dataset/Bonn/rgbd_bonn_person_tracking2",
+                "/home/wang/dataset/Bonn/rgbd_bonn_person_tracking2/associations.txt",
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build",
+            "miDebuggerPath": "/usr/bin/gdb"
+        },
+        {
+            "name": "AirSim",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/home/wang/code/SG-SLAM/src/sg-slam/Examples/sg_slam_tum",
+            "args": [
+                "/home/wang/code/SG-SLAM/src/sg-slam/Vocabulary/ORBvoc.bin",
+                "/home/wang/dataset/test/airsim.yaml",
+                "/home/wang/dataset/test",
+                "/home/wang/dataset/test/associations_new.txt",
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build",
+            "miDebuggerPath": "/usr/bin/gdb"
+        },
+        {
+            "name": "AirSim_mine",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/home/wang/code/SG-SLAM/src/sg-slam/Examples/sg_slam_tum",
+            "args": [
+                "/home/wang/code/SG-SLAM/src/sg-slam/Vocabulary/ORBvoc.bin",
+                "/home/wang/dataset/AirSimRecord/2024-06-03-13-43-37/airsim.yaml",
+                "/home/wang/dataset/AirSimRecord/2024-06-10-07-47-35",
+                "/home/wang/dataset/AirSimRecord/2024-06-10-07-47-35/associations.txt",
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build",
+            "miDebuggerPath": "/usr/bin/gdb"
+        },
+        {
+            "name": "AirSim_RGBD",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/home/wang/code/SG-SLAM/src/sg-slam/Examples/sg_slam_tum",
+            "args": [
+                "/home/wang/code/SG-SLAM/src/sg-slam/Vocabulary/ORBvoc.bin",
+                "/home/wang/dataset/AirSimRecord/2024-06-03-13-43-37/airsim.yaml",
+                "/home/wang/dataset/AirSimRecord/2024-06-03-13-43-37",
+                "/home/wang/dataset/AirSimRecord/2024-06-03-13-43-37/associations.txt",
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build",
+            "miDebuggerPath": "/usr/bin/gdb"
+        },
+        {
+            "name": "AirSim_RGBD2",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/home/wang/code/SG-SLAM/src/sg-slam/Examples/sg_slam_tum",
+            "args": [
+                "/home/wang/code/SG-SLAM/src/sg-slam/Vocabulary/ORBvoc.bin",
+                "/home/wang/dataset/AirSimRecord/2024-06-03-13-43-37/airsim.yaml",
+                "/home/wang/dataset/AirSimRecord/2024-06-10-07-47-35",
+                "/home/wang/dataset/AirSimRecord/2024-06-10-07-47-35/associations.txt",
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build",
+            "miDebuggerPath": "/usr/bin/gdb"
+        },
+        {
+            "name": "AirSim_RGBD3",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/home/wang/code/SG-SLAM/src/sg-slam/Examples/sg_slam_tum",
+            "args": [
+                "/home/wang/code/SG-SLAM/src/sg-slam/Vocabulary/ORBvoc.bin",
+                "/home/wang/dataset/AirSimRecord/2024-06-03-13-43-37/airsim.yaml",
+                "/home/wang/dataset/AirSimRecord/2024-06-14-1uav",
+                "/home/wang/dataset/AirSimRecord/2024-06-14-1uav/associations.txt",
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build",
+            "miDebuggerPath": "/usr/bin/gdb"
+        },
+        {
+            "name": "AirSim_4",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/home/wang/code/SG-SLAM/src/sg-slam/Examples/sg_slam_tum",
+            "args": [
+                "/home/wang/code/SG-SLAM/src/sg-slam/Vocabulary/ORBvoc.bin",
+                "/home/wang/dataset/AirSimRecord/2024-06-03-13-43-37/airsim.yaml",
+                "/home/wang/dataset/AirSimRecord/2024-06-15-01",
+                "/home/wang/dataset/AirSimRecord/2024-06-15-01/associations.txt",
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build",
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ]
+}

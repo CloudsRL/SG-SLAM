@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/**",
+                "/usr/lib/gcc/x86_64-linux-gnu/7/**",
+                "/usr/lib/gcc/x86_64-linux-gnu/9/**",
+                "/usr/local/include/**",
+                "/opt/ros/melodic/include/**",
+                "${workspaceFolder}/src/sg-slam/include/**"
+            ],
+            "defines": [],
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPath": "/usr/bin/g++-9"
+        }
+    ],
+    "version": 4
+}
